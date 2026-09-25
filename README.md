@@ -1,7 +1,7 @@
 ## 📂 Project Directory Structure
 
 ```text
-my-ml-project/
+data_project/
 ├── .gitignore               # Git 추적 제외 설정 파일
 ├── README.md                # 프로젝트 설명서 (가장 중요)
 ├── environment.yml          # 아나콘다 가상환경 설정 파일
@@ -20,4 +20,3 @@ my-ml-project/
 │   └── train.py             # 메인 학습 실행 파이프라인
 │
 └── models/                  # 학습된 모델 가중치 저장 폴더 (.pkl 등)
-...
