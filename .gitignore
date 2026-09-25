@@ -1,0 +1,49 @@
+# 1. 파이썬 바이트코드 및 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 2. 가상환경 (venv, conda 등)
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+
+# 3. 주피터 노트북 체크포인트
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# 4. 데이터셋 (대용량 Raw/Processed 데이터)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+
+# 단, 깃 구조 유지를 위한 .gitkeep 파일은 추적 유지
+!data/**/.gitkeep
+
+# 5. 학습된 모델 가중치 및 체크포인트
+models/*.pkl
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.bin
+
+# 6. IDE 및 운영체제 설정 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 7. 개인 인증키 및 시크릿 환경변수 (절대 업로드 금지)
+.env
+*.pem
+credentials.json
