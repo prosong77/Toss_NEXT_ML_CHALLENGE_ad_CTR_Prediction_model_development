@@ -47,3 +47,6 @@ Thumbs.db
 .env
 *.pem
 credentials.json
+
+# 8. practice.ipynb 파일 내 특정 셀의 출력 결과를 무시하도록 설정
+practice.ipynb
